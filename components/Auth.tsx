@@ -94,7 +94,7 @@ function Auth(props: AuthProps) {
             <button type="submit">SignIn</button>
           </form>
           <hr />
-          <a onClick={() => setAuthView('sign_up')}>Don't have an account? Sign up</a>
+          <a onClick={() => setAuthView('sign_up')}>Don&apos;t have an account? Sign up</a>
           <a onClick={() => setAuthView('forgotten_password')}>Forgot my password</a>
           <hr />
           <a onClick={() => setAuthView('magic_link')}>Send magic link email</a>
@@ -142,7 +142,7 @@ function Auth(props: AuthProps) {
             <button type="submit">Send reset password instructions</button>
           </form>
           <hr />
-          <a onClick={() => setAuthView('sign_up')}>Don't have an account? Sign up</a>
+          <a onClick={() => setAuthView('sign_up')}>Don&apos;t have an account? Sign up</a>
           <a onClick={() => setAuthView('sign_in')}>Already have an account, Sign in</a>
           <hr />
           <a onClick={() => setAuthView('magic_link')}>Send magic link email</a>
@@ -160,7 +160,7 @@ function Auth(props: AuthProps) {
             <button type="submit">Send magic link</button>
           </form>
           <hr />
-          <a onClick={() => setAuthView('sign_up')}>Don't have an account? Sign up</a>
+          <a onClick={() => setAuthView('sign_up')}>Don&apos;t have an account? Sign up</a>
           <a onClick={() => setAuthView('sign_in')}>Already have an account, Sign in</a>
         </>
       ) : null}

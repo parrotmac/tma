@@ -58,7 +58,7 @@ const Login = () => {
         {authView === 'update_password' && <Auth.UpdatePassword supabaseClient={supabase} />}
         {user && (
           <>
-            <h4>You're signed in</h4>
+            <h4>You&apos;re signed in</h4>
             <h5>Email: {user.email}</h5>
 
             <button onClick={() => supabase.auth.signOut()}>

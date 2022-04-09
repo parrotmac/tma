@@ -1,6 +1,5 @@
-import { GetServerSideProps, GetServerSidePropsContext } from 'next';
+import { GetServerSidePropsContext } from 'next';
 import Link from 'next/link';
-import { NextRequest } from 'next/server';
 import { supabase } from '../utils/initSupabase';
 
 interface ProfileProps {
@@ -11,7 +10,7 @@ interface ProfileProps {
 export default function Profile({ user }: ProfileProps) {
   return (
     <div style={{ maxWidth: '520px', margin: '96px auto' }}>
-      <h4>You're signed in</h4>
+      <h4>You&apos;re signed in</h4>
       <h5>Email: {user.email}</h5>
       <hr />
 
