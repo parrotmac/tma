@@ -2,6 +2,49 @@
   padding: 0 2rem;
 }
 
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+}
+
+.header nav a {
+  padding: 1rem;
+}
+
+.header nav a:hover {
+  color: #0070f3;
+}
+
+.accountActions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.accountActions a {
+  padding: 0.7rem 1rem;
+  margin: 0.5rem;
+  display: flex;
+}
+
+a.signin {
+  border: 2px solid #0070f3;
+}
+
+a.signup:link, a.signup:visited, a.signup {
+  background-color: #0070f3;
+  color: #fff;
+}
+
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
